@@ -29,9 +29,10 @@
 
     <section class="contentbox2">
       <div class="logo">
-        <img src="logo.jpg" />
+        <img src="logo.jpg" alt="brand-logo"/>
         <p>KALYPSO</p>
       </div>
+
       <h1>Register</h1>
 
       <form>
@@ -54,23 +55,27 @@
         </div>
 
         <div class="Bottom">
-          <label>
-            Password
-            <input type="password" placeholder="Your Password"></input>
-          </label>
+            <label>
+              Password
+              <input type="password" placeholder="Your Password"></input>
+            </label>
+          </div>
 
           <div class="Terms">
-            <div class="form-check form-switch m-3">
-              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            <div class="form-check form-switch">  
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
               <label class="form-check-label" for="flexSwitchCheckChecked">
-                <ul>
+                I accept the <a href="#">Terms of Service</a> as well as <a href="#">Privacy Policy</a>
+                <!-- REMOVED THIS PART AS WELL YOU CAN PUT ALL THIS INSIDE THE LABEL NO NEED FOR UL
+                  <ul>
                   <li>I accept the</li>
                   <li><a href="#">Terms of Service</a></li>
                   <li>as well as</li>
                   <li><a href="#">Privacy Policy</a></li>
-                </ul>
+                </ul> -->
               </label>
             </div>
+           
           </div>
 
           <div class="Create">
@@ -80,12 +85,17 @@
             </button>
           </div>
 
-          <br><br><br><br><br><br><br>
+          <!-- <br><br><br><br><br><br><br> removed very unnecessary-->
+          <!-- I STYLED THE FOOTER CLASS USING BOOTSTRAP ITS MUCH EASIER THAT WAY
+          THIS IS THE OLD
           <footer class="pt-20 mt-5 text-muted border-top">
+          
+          -->
+          <footer class="pt-20 mt-4 text-muted border-top d-flex justify-content-center">
             <div class="foot">Already have an account? <a href="#">Login Now</a></div>
           </footer>
 
-          <div class="listed">
+          <div class="listed d-flex justify-content-center">
             <ul>
               <li><a href="#">Help</a></li>
               <li><a href="#">Legal</a></li>

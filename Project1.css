@@ -1,3 +1,5 @@
+/*ALL THE COMMENTS BESIDE THE STYLE WERE THE ORIGINAL STYLES*/
+
 * {
   margin: 0;
   padding: 0;
@@ -29,11 +31,11 @@
 
 .main {
   width: 88vw;
-  height: 105vh;
+  height: 100vh;
   display: flex;
   position: absolute;
-  top: 210px;
-  left: 370px;
+  top: 10px;
+  left: 170px; /* left: 370px; */
   z-index: 1;
   box-shadow: 0 0 2000px #000;
   /* border-radius: 54px; */
@@ -52,43 +54,45 @@
 }
 
 .main .contentbox2 {
-  font-size: 64px;
+  font-size: 1.5rem;/*font-size: 64px;*/
   display: inline-block;
-  padding: 50px 50px;
+  padding: 0 25px; /* padding: 50px 50px; */
 }
 
 .main .contentbox2 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin: 0; /*margin-top: 80px;*/
 }
 
 .main .contentbox2 .logo img {
-  height: 250px;
-  width: 250px;
+  width: 3.5em;
+  height: 3.5em;
+  /*height: 250px;
+  width: 250px;*/
 }
 
 .main .contentbox2 .logo p {
-  font-size: 150px;
+  font-size: 2.5rem;/*font-size: 150px;*/
   font-weight: bold;
-  padding: 70px 45px;
+  padding: 2rem 1.25rem; /*padding: 70px 45px;*/
   font-family: "Staatliches", cursive;
-  letter-spacing: 20px;
+  letter-spacing: 15px;
 }
 
 .main .contentbox2 h1 {
-  padding: 130px 190px;
-  margin-top: 5px;
+  /* padding: 130px 190px; */
+  /* margin-top: 5px; */
   margin-bottom: 10px;
-  font-weight: 750;
-  font-size: 84px;
+  font-weight: bold;
+  font-size: 1.75rem;/* font-size: 84px; */
 }
 
-.main .contentbox2 form {
+/* .main .contentbox2 form {
   margin-left: 190px;
   margin-right: 190px;
-}
+} */
 
 .main .contentbox2 .Top,
 .main .contentbox2 .Middle,
@@ -98,28 +102,29 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1rem;
-  font-size: 60px;
+  font-size: 1.35rem;/*font-size: 60px;*/
+  font-weight: 400;
 }
 
 .Top label {
   width: 48%;
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px;  */
 }
 
 .Top label input,
 .Middle label input,
 .Bottom label input {
   outline: none;
-  margin-top: 45px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  /* margin-bottom: 30px; */
   background-color: rgb(241, 241, 241);
   border: 2px solid rgb(241, 241, 241);
-  padding: 6px 40px;
+  padding: 13px;/* padding: 6px 40px; */
   border-radius: 6px;
-  height: 145px;
-  font-size: 50px;
+  /* height: 145px; */
+  font-size: 1rem; /*font-size: 50px;*/
 }
 
 .Middle,
@@ -135,32 +140,39 @@
 }
 
 .Create button {
-  padding: 30px;
+  padding: 15px; /*padding: 15px;*/
   border: none;
   background-color: #3366ff;
   color: white;
   border-radius: 15px;
-  margin-top: 310px;
-  position: absolute;
-  left: 54%;
+  margin-top: 1rem;
+  /* margin-top: 310px; */
+  /* position: absolute; */
+  /* left: 54%; */
 }
 
 a {
   text-decoration: none;
 }
 
+/* REMOVED THIS SEE EXPLAIN IN HTML FILE
+<div class="form-check form-switch m-3"> ALSO REMOVED THE MARGIN IN HTML BOOTSTRAP
 .form-check-input {
   margin-top: 182px;
   position: absolute;
+  cursor: pointer;
   left: 57%;
-}
+  margin: 0;
+  border: 2px solid red;
+} */
 
 .form-check-label {
-  margin-top: 167px;
-  position: absolute;
-  left: 57%;
-  font-size: 60px;
+  /* margin-top: 167px; */
+  /* position: absolute; */
+  font-size: 1rem;
 }
+
+/* REMOVED ALL OF THIS ALSO NO MORE li IN HTML
 
 .form-check-label ul {
   overflow: auto;
@@ -168,10 +180,10 @@ a {
 
 .form-check-label li {
   display: inline-block;
-  font-size: 50px;
+  font-size: 1rem;
   list-style: none;
   padding: 0px 4px;
-}
+} */
 
 .listed ul {
   overflow: auto;
@@ -179,11 +191,11 @@ a {
 
 .listed li {
   display: inline-block;
-  font-size: 50px;
   list-style: none;
-  padding: 2px 35px;
-  margin-top: 210px;
-  font-size: 44px;
+  font-size: 1rem; /* font-size: 44px;*/
+  /* padding: 2px 35px; */
+  /* margin-top: 210px; very large margin*/
+  /* font-size: 50px; redundant font size see line 196 */
 }
 
 .listed li a {
